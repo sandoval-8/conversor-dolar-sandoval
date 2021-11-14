@@ -41,3 +41,11 @@ let cotizadorCompraArg = new Cotizador(monedaArg);
 
 console.log(" ----- Con 100 " + cotizadorCompraArg.nombre_moneda + 
 " podes comprar "+ cotizadorCompraArg.comprarDolares(1000) + " dolares");
+
+//------------------------------------------------
+let monedaUru = new PesoUruguayo(0.023, "Peso Uruguayo");
+
+let cotizadorCompraUru = new Cotizador(monedaUru);
+
+console.log(" ----- Con 100 " + cotizadorCompraUru.nombre_moneda + 
+" podes comprar "+ cotizadorCompraUru.comprarDolares(1000) + " dolares"); 
