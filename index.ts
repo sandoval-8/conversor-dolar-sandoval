@@ -30,6 +30,7 @@ class Cotizador {
     }
 
     comprarDolares(cantidadDisponible: number):number{
-        
+        let dolaresComprados = cantidadDisponible * this.moneda.valor_dolar;
+        return dolaresComprados;
     }
 }
