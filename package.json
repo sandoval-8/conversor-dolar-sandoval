@@ -1,0 +1,12 @@
+{
+  "name": "conversor-dolar-sandoval",
+  "version": "1.0.0",
+  "description": "Convierte de peso (arge, uru) a dolar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Lucas Sandoval",
+  "license": "MIT"
+}
