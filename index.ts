@@ -19,3 +19,17 @@ class PesoUruguayo implements Moneda {
         this.nombre_moneda = nombre_moneda;
     }
 }
+//--------------- cotizador --------------
+class Cotizador {
+    valor_dolar:number;   
+    nombre_moneda: string;
+
+    constructor(public moneda:Moneda){
+        this.valor_dolar = moneda.valor_dolar;
+        this.nombre_moneda = moneda.nombre_moneda;
+    }
+
+    comprarDolares(cantidadDisponible: number):number{
+        
+    }
+}
