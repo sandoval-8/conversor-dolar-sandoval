@@ -34,3 +34,10 @@ class Cotizador {
         return dolaresComprados;
     }
 }
+//----------------------------------------------
+let monedaArg = new PesoArgentino(0.0100, "Peso Argentino");
+
+let cotizadorCompraArg = new Cotizador(monedaArg);
+
+console.log(" ----- Con 100 " + cotizadorCompraArg.nombre_moneda + 
+" podes comprar "+ cotizadorCompraArg.comprarDolares(1000) + " dolares");
